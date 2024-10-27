@@ -1,8 +1,8 @@
 name: Publish @distube/ytdl-core
-on:  
+on:
   push:
     tags:
-      - '*'
+      - "*"
 jobs:
   publish:
     name: Build & Publish
