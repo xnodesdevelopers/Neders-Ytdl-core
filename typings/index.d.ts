@@ -343,6 +343,7 @@ declare module '@distube/ytdl-core' {
       rewriteRequest?: (url: string, requestOptions: Parameters<typeof request>[1]) => {url: string, requestOptions: Parameters<typeof request>[1]};
       requestOptions?: Parameters<typeof request>[1];
       agent?: Agent;
+      playerClients?: Array<'WEB_CREATOR' | 'IOS' | 'ANDROID'>;
     }
 
     interface chooseFormatOptions {
